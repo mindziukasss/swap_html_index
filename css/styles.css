@@ -1,0 +1,105 @@
+body {
+  width: 100%;
+  margin: 0px auto;
+  /*font-family: sans-serif;*/
+  background-color:#e7e7e7;
+  padding-top: 90px;
+}
+
+div {
+  font-size: 0px;
+}
+
+a {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
+  margin-right: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+a:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 50em) {
+  a {
+    width: calc(25% - 6px);
+  }
+  
+  a:nth-of-type(2n) {
+    margin-right: 8px;
+  }
+  
+  a:nth-of-type(4n) {
+    margin-right: 0;
+  }
+}
+
+a:hover img {
+  transform: scale(1.15);
+}
+
+figure {
+  margin: 0;
+  overflow: hidden;
+}
+
+figcaption {
+  margin-top: 15px;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background: #ccc;
+  transition: transform .2s ease-in-out;
+}
+.navbar {
+	background-color: white;
+	padding-right: 80px !important;
+	padding-left: 140px !important;
+}
+
+.navbar-nav > li > a {
+	padding-top:15px !important;
+	 padding-bottom: 0px !important;
+	}
+
+.navbar-fixed-top {
+	top: 10px !important;
+	border-width: 0px 0px 0px !important; 
+}
+
+.navbar-brand {
+	font-size: 30px;
+	margin-left: -110px;
+
+
+}
+
+
+
+button {
+	margin: 3px !important;
+}
+
+.p a {
+  display: inline;
+  font-size: 13px;
+  margin: 0;
+  text-decoration: underline;
+  color: blue;
+}
+
+.p {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 100px;
+}
+
+
